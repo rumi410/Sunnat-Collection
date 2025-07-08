@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunnat Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Sunnat Collection</h1>
+    <img src="https://via.placeholder.com/300x100?text=Sunnat+Logo" alt="Logo" class="logo">
+    <nav>
+      <a href="#perfumes">Perfumes</a>
+      <a href="#tasbeeh">Tasbeeh</a>
+      <a href="#topi">Topi</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <img src="https://via.placeholder.com/800x300?text=Islamic+Store" alt="Banner">
+  </section>
+
+  <main>
+    <h2>Our Products</h2>
+
+    <section id="perfumes" class="product">
+      <h3>Perfume - Oud</h3>
+      <img src="https://via.placeholder.com/200?text=Perfume" alt="Perfume">
+      <p>100ml – 2000 PKR<br>200ml – 3000 PKR</p>
+      <button onclick="buyNow('Perfume - Oud')">Buy Now</button>
+    </section>
+
+    <section id="tasbeeh" class="product">
+      <h3>Tasbeeh - Digital</h3>
+      <img src="https://via.placeholder.com/200?text=Tasbeeh" alt="Tasbeeh">
+      <p>Price: 500 PKR</p>
+      <button onclick="buyNow('Tasbeeh - Digital')">Buy Now</button>
+    </section>
+
+    <section id="topi" class="product">
+      <h3>Topi - White Cotton</h3>
+      <img src="https://via.placeholder.com/200?text=Topi" alt="Topi">
+      <p>Price: 350 PKR</p>
+      <button onclick="buyNow('Topi - White Cotton')">Buy Now</button>
+    </section>
+  </main>
+
+  <footer>
+    <h4>Quick Links</h4>
+    <ul>
+      <li>Help & Support</li>
+      <li>About Us</li>
+      <li>Contact</li>
+      <li>Instagram | YouTube | TikTok | Snapchat</li>
+    </ul>
+    <p>© 2025, Sunnat Collection | Privacy Policy | Terms of Service</p>
+  </footer>
+
+  <script>
+    function buyNow(product) {
+      const name = prompt("Your Name:");
+      const mobile = prompt("Mobile Number:");
+      const address = prompt("Delivery Address:");
+      alert(`Thanks ${name}! Your order for "${product}" has been placed. We will contact you on ${mobile}.`);
+    }
+  </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Sunnat Collection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Sunnat Collection</h1>
+    <img src="https://via.placeholder.com/300x100?text=Sunnat+Logo" alt="Logo" class="logo">
+    <nav>
+      <a href="#perfumes">Perfumes</a>
+      <a href="#tasbeeh">Tasbeeh</a>
+      <a href="#topi">Topi</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <img src="https://via.placeholder.com/800x300?text=Islamic+Store" alt="Banner">
+  </section>
+
+  <main>
+    <h2>Our Products</h2>
+
+    <section id="perfumes" class="product">
+      <h3>Perfume - Oud</h3>
+      <img src="https://via.placeholder.com/200?text=Perfume" alt="Perfume">
+      <p>100ml – 2000 PKR<br>200ml – 3000 PKR</p>
+      <button onclick="buyNow('Perfume - Oud')">Buy Now</button>
+    </section>
+
+    <section id="tasbeeh" class="product">
+      <h3>Tasbeeh - Digital</h3>
+      <img src="https://via.placeholder.com/200?text=Tasbeeh" alt="Tasbeeh">
+      <p>Price: 500 PKR</p>
+      <button onclick="buyNow('Tasbeeh - Digital')">Buy Now</button>
+    </section>
+
+    <section id="topi" class="product">
+      <h3>Topi - White Cotton</h3>
+      <img src="https://via.placeholder.com/200?text=Topi" alt="Topi">
+      <p>Price: 350 PKR</p>
+      <button onclick="buyNow('Topi - White Cotton')">Buy Now</button>
+    </section>
+  </main>
+
+  <footer>
+    <h4>Quick Links</h4>
+    <ul>
+      <li>Help & Support</li>
+      <li>About Us</li>
+      <li>Contact</li>
+      <li>Instagram | YouTube | TikTok | Snapchat</li>
+    </ul>
+    <p>© 2025, Sunnat Collection | Privacy Policy | Terms of Service</p>
+  </footer>
+
+  <script>
+    function buyNow(product) {
+      const name = prompt("Your Name:");
+      const mobile = prompt("Mobile Number:");
+      const address = prompt("Delivery Address:");
+      alert(`Thanks ${name}! Your order for "${product}" has been placed. We will contact you on ${mobile}.`);
+    }
+  </script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f6f6f6;
+  color: #222;
+}
+header {
+  background-color: #00897B;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+.logo {
+  height: 80px;
+  margin-top: 10px;
+}
+nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.banner img {
+  width: 100%;
+  height: auto;
+}
+main {
+  padding: 2rem;
+}
+.product {
+  background: white;
+  padding: 1rem;
+  margin: 1rem 0;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+.product img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+button {
+  background-color: #00897B;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+footer {
+  background-color: #263238;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+footer li {
+  margin: 5px 0;
+}
